@@ -1,8 +1,16 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app was created using vite & react and is designed to query the National Carbon Intensirt API at https://api.carbonintensity.org.uk/
 
-Currently, two official plugins are available:
+It is used to get a snapshot of the current Carbon emissions and fuel generation mix for a particular region chosen from the drop down menu.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## How to use
+---
+Fork and clone the repo and then type **npm install** into your terminal.
+
+Type **npm run dev** to run the app and then click on 'view in browser'.
+
+Choose your region from the drop down menu and look at the data!
+
+
+This project was part of the Software Developer Course by NOrthCoders and is one of their frontend sprints.
